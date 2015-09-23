@@ -2,13 +2,15 @@
   "name": "gnetic",
   "version": "1.0.0",
   "description": "First deploy",
+  "scripts": { "start" : "node server.js" },
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^3.3.5"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "dependencies": {
+    "body-parser": "latest",
+    "express": "~4.2.0",
+    "mongoose": "latest",
   },
   "author": "Bingyao Li",
   "license": "ISC"
