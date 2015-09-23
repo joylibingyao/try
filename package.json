@@ -1,14 +1,31 @@
 {
   "name": "gnetic",
   "version": "1.0.0",
-  "description": "First deploy",
-  "scripts": { "start" : "node server.js" },
-  "main": "index.js",
+  "description": "robot",
+  "main": "server.js",
   "dependencies": {
-    "bootstrap": "^3.3.5"
+    "ejs": "^2.3.3",
+    "body-parser": "^1.13.2",
+    "express": "^4.2.0",
+    "mongoose": "^4.0.8",
+    "normalize.css": "^3.0.3"
   },
-   "dependencies": {
+  "devDependencies": {},
+  "scripts": {
+    "test": "hey robot",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joylibingyao/template.git"
+  },
+  "keywords": [
+    "robot"
+  ],
   "author": "Bingyao Li",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joylibingyao/template/issues"
+  },
+  "homepage": "https://github.com/joylibingyao/template#readme"
 }
