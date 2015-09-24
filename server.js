@@ -13,6 +13,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(path.join(__dirname, './client')));
 
-app.listen(8008, function() {
+app.listen(8080, function() {
   console.log('cool stuff on: 8008');
 });
