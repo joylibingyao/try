@@ -134,11 +134,12 @@ div.parallax{
 	height: 100px;
 }
 
-#first-bk,#second-bk{
+#zero-bk,#first-bk,#second-bk{
 	margin-bottom: 40px;
 }
-.content-section{
-	padding-top: 60px;
+.content-section,#what-section,#technology-section{
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 #contact-section{
