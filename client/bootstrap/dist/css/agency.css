@@ -224,7 +224,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 
 #technology-section .portfolio-item .portfolio-caption h4 {
@@ -262,8 +262,8 @@ section h3.section-subheading {
 }
 
 .team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-transform: none;
 }
 
@@ -317,7 +317,7 @@ ul.list-inline li{
     right: 25px;
     width: 75px;
     height: 75px;
-    background-color: transparent;
+    /*background-color: #fed136;*/
     cursor: pointer;
 }
 
@@ -330,7 +330,7 @@ ul.list-inline li{
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #fed136;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -340,7 +340,7 @@ ul.list-inline li{
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #fed136;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -408,17 +408,25 @@ a:focus{
     /*border:1px black solid;*/
     width: 70%;
 }
-
-.img-circle{
-    height: 200px;
-    width: 200px;
+#team-wrapper{
+    padding-left: 10px;
 }
 
+.img-circle{
+    height: 180px;
+    width: 180px;
+}
+
+
+ul.social-buttons{
+    padding-left: 20px;
+}
 ul.social-buttons li{
     height: 45px;
     width: 45px;
     padding-top: 10px;
     border-radius: 50%;
+
     background-color: #68C0E0;
     /*border:1px black solid;*/
 }
@@ -445,5 +453,14 @@ ul.bigger-social-buttons li{
 .modal-body h2{
     text-transform: uppercase;
 }
-
+.pIcon{
+    /*text-align: center;*/
+    margin-left: 38%;
+}
+div.contact-modal div.modal-content{
+    background-color: black;
+}
+div.contact-modal-body{
+    background-color: white;
+}
 /*end of motification*/
