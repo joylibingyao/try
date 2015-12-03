@@ -1,0 +1,24 @@
+<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">1 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">2</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">3</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">4</a></li>
+                </ul>
+              </li>
+
+
+
+
+
+      <div id="first-bk" class="section-image col-md-12 col-sm-12  content-fill parallax" data-parallax="scroll" class data-image-src="img/bk1.jpg" data-image-resolution="1500w">
+        <h4 class="bk-text">Making a difference to our home by bringing dreams of autonomous workers to life.</h4>
+      </div>
+
+
+color
+#3673B6//nav blue
+#DBDEE0//background video grey
+  #1A3979//logo blue

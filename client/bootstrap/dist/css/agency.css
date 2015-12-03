@@ -392,7 +392,7 @@ a {
 
 a:hover,
 a:focus{
-    color: #44B1D8;
+    /*color: #44B1D8;*/
 }
 
 
@@ -413,8 +413,8 @@ a:focus{
 }
 
 .img-circle{
-    height: 180px;
-    width: 180px;
+    height: 230px;
+    width: 230px;
 }
 
 
@@ -422,22 +422,24 @@ ul.social-buttons{
     padding-left: 20px;
 }
 ul.social-buttons li{
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     padding-top: 10px;
     border-radius: 50%;
 
-    background-color: #68C0E0;
+    /*background-color: #68C0E0;*/
+    background-color: #538dcc;
     /*border:1px black solid;*/
 }
 
 ul.social-buttons li i.fa-2x,ul.bigger-social-buttons li i.fa-2x {
     color: white;
+    font-size: 22px;
 }
 ul.bigger-social-buttons li{
     height: 50px;
     width: 50px;
-    padding-top: 13px;
+    padding-top: 10px;
     border-radius: 50%;
     background-color: #68C0E0;
     /*border:1px black solid;*/

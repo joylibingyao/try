@@ -16,7 +16,8 @@
 
   <link href="bootstrap/dist/css/grayscale.css" rel="stylesheet">
   <link href="bootstrap/dist/css/agency.css" rel="stylesheet">
-
+  <link href="bootstrap/dist/css/carousel.css" rel="stylesheet">
+  <link href="bootstrap/dist/css/video.css" rel="stylesheet">
   <link href="bootstrap/dist/css/style.css" rel="stylesheet">
   
   
@@ -36,6 +37,7 @@
     }
   </style>
 
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,25 +54,23 @@
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" id="long-but">
                 <i class="fa fa-bars fa-lg" id="fa"></i>
               </button>
-              <a id="nav-logo" class="navbar-brand page-scroll" href="#page-top">
-               Gnetics<span id="tm">TM</span>
+              <a id="nav-logo" class="navbar-brand page-scroll" href="#page-top"><span class="">G</span>netic
+               <span id="tm">TM</span>
              </a>
            </div>
 
            <!-- Collect the nav links, forms, and other content for toggling -->
            <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="right-nav">
             <ul class="nav navbar-nav">
-              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              <!-- Hidden li included to remove active class from about link when scrolled up ` about section -->
               <li class="hidden">
                 <a href="#page-top"></a>
               </li>
-              <li>
+<!--               <li>
                 <a class="page-scroll" href="#what-section">Welcome</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#news-section">what's new</a>
-              </li>
-              <li>
+              </li> -->
+
+              <li class="page-scroll">
                 <a class="page-scroll" href="#technology-section">Technology</a>
               </li>
 
@@ -78,7 +78,20 @@
                 <a class="page-scroll" href="#team-section">Team</a>
               </li>
               <li>
+                <a class="page-scroll" href="#news-section">News</a>
+              </li>
+              <li>
                 <a class="page-scroll" href="#contact-section">Contact</a>
+              </li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DropDown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">2</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">3</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">4</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -89,21 +102,19 @@
       <!-- end of temp -->
 
       <div class="video-container" id="video-container">
-        <video preload="true" autoplay= "autoplay" volume="0" poster="img/bk1.jpg">
-          <source src="pcr.mp4" type="video/mp4">
-            <source src="pcr.webm" type="video/webm">
-              <source src="pcr.ogg" type="video/ogg">
-              </video>
-            </div>
+        <video  id="video1" preload="true" autoplay= "autoplay" volume="0" poster="img/bk1.jpg" loop>
+          <source src="video.mp4" type="video/mp4">
+          <source src="video.webm" type="video/webm">
+          <source src="video.ogg" type="video/ogg">
+        </video>
+      </div>
 
-<!-- 
- <div class="header-inner container"> -->
-  <!-- <div class="upper" id="color-filter"> -->
-  <!-- </div> -->
-  <div class="inside-filter">
+
+
+<!--   <div class="inside-filter">
     <img src="img/logo.png" id="logo">
     <h1 class="text-center" id="title">Gnetic</h1></a>
-  </div>
+  </div> -->
   
 
 </header>
@@ -118,10 +129,7 @@
     <!-- What is Gnetic &&&&&&&&&&&&&&&&&& -->
     <section id="what-section" class="content-section text-center">
       <div class="tk-div ">
-        <h1 class="section-title">Welcome to Gnetic</h1>
-        <hr class="small">
-        <p class="text-center text-muted" id="subline">Tired of tedious tasks, No time for family?</p>
-        <p class="text-center large" >Imagine a robot that runs indefinitely, multifunctional and autonomous<br>A robot that allows you to spend time with your family and free up your hands to do whatever you want<br> Then welcome to Gnetic<br> a company that focuses on research and development of automative robotic systems </p>
+        <p class="text-center large introText" >Imagine a robot that runs indefinitely, multifunctional and autonomous, A robot that allows you to spend time with your family and free up your hands to do whatever you want<br> Then welcome to <span class=""> Gnetic</span><br> a company that focuses on research and development of automative robotic systems </p>
       </div>
     </section>
 
@@ -129,245 +137,357 @@
     <!-- end of about us -->
 
     
+    <!-- Technology section &&&&&&&&&&&& -->
+    <!-- Portfolio Grid Section -->
+    <!-- Portfolio Grid Section -->
+    <section id="technology-section" class="content-section bg-light-gray text-center">
+      <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Technology</h2>
+        </div>
+      </div>
+      <!-- <hr class="small"> -->
+      <div class="row" id="profile">
 
-    <div id="fouth-bk" class="section-image col-md-12 col-sm-12  content-fill parallax" data-parallax="scroll" class data-image-src="img/bk1.jpg" data-image-resolution="1500w">
-      <h4 class="bk-text">Making a difference to our home by bringing dreams of autonomous workers to life.</h4>
-    </div>
 
-
-<!-- what's new -->
-<section id="news-section" class="content-section bg-light-gray text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-title">What's going on</h2>
+        <div class="col-md-4 col-sm-6 portfolio-item ">
+          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+          </a>
+          <div class="portfolio-caption bg-light-gray">
+            <h4>App</h4>
+            <p class="text-muted">say something?</p>
           </div>
         </div>
-        <hr class="small">
-        <div class="row" id="news-content">
 
-          <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-6 portfolio-item ">
+          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+          </a>
+          <div class="portfolio-caption bg-light-gray">
+            <h4>Multi-task</h4>
+            <p class="text-muted">say something?</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item ">
+          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+          </a>
+          <div class="portfolio-caption bg-light-gray">
+            <h4>Camera</h4>
+            <p class="text-muted">say something?</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+          </a>
+          <div class="portfolio-caption bg-light-gray">
+            <h4>App</h4>
+            <p class="text-muted">say something?</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+          </a>
+          <div class="portfolio-caption bg-light-gray">
+            <h4>Camera</h4>
+            <p class="text-muted">say something?</p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <!-- <p><a href="#">Learn More</a></p> -->
+  </section>
+
+  <div id="fouth-bk" class="section-image col-md-12 col-sm-12  content-fill parallax" data-parallax="scroll" class data-image-src="img/bk1.jpg" data-image-resolution="1500w">
+    <!-- <h4 class="bk-text">Making a difference to our home by bringing dreams of autonomous workers to life.</h4> -->
+    <h4 class="bk-text">Making a difference to our home by bringing dreams of autonomous workers to life</h4>
+  </div>
+
+
+
+  <!-- about us &&&&&&&&&&&&&&&&&& -->
+  <section id="team-section" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title" id="team-title">Meet the Team</h2>
+
+          <!-- <h3 class="section-subheading text-muted">We Are Penn State</h3> -->
+        </div>
+      </div>
+      <!-- <hr class="small"> -->
+      <div id="team-wrapper">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="#contactModal1" class="portfolio-link" data-toggle="modal">
+                <img src="img/team/person.png" class="img-responsive img-circle" alt="">
+              </a>
+              <h4>Gregg Ratanaphanyarat</h4>
+              <ul class="list-inline social-buttons">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="#contactModal2" class="portfolio-link" data-toggle="modal">
+                <img src="img/team/person.png" class="img-responsive img-circle" alt="">
+              </a>
+              <h4>Dawei Ding</h4>
+              <ul class="list-inline social-buttons">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="#contactModal3" class="portfolio-link" data-toggle="modal">
+                <img src="img/team/person.png" class="img-responsive img-circle" alt="">
+              </a>
+              <h4>Jesse Chen</h4>
+              <ul class="list-inline social-buttons">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="#contactModal4" class="portfolio-link" data-toggle="modal">
+                <img src="img/team/person.png" class="img-responsive img-circle" alt="">
+              </a>
+              <h4>Vanajam Soni</h4>
+              <ul class="list-inline social-buttons">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="#contactModal5" class="portfolio-link" data-toggle="modal">
+                <img src="img/team/person.png" class="img-responsive img-circle" alt="">
+              </a>
+              <h4>Christopher Whitridge</h4>
+              <ul class="list-inline social-buttons">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <a href="#contactModal5" class="portfolio-link" data-toggle="modal">
+                <img src="img/team/person.png" class="img-responsive img-circle" alt="">
+              </a>
+              <h4>Kevin Xie</h4>
+              <ul class="list-inline social-buttons">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <p class="large text-muted"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of  team -->
+
+  <!-- what's new -->
+  <section id="news-section" class="content-section bg-light-gray text-center">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">News</h2>
+      </div>
+    </div>
+
+    <div class="row" id="news-content-wrapper">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <div class="col-md-7 col-sm-12">
+              <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+            </div>
+
+            <div class="col-md-5 col-sm-12 ">
+              <div class="news-caption bg-light-gray" id="news-content">
+                <h4>Battery</h4>
+                <p id="news-text">Imagine a robot that runs indefinitely, multifunctional and autonomous.A robot that allows you to spend time with your family and free up your hands to do whatever you wantThen welcome to Gnetic a company that focuses on research and development of automative robotic systems</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-md-7 col-sm-12">
+              <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+            </div>
+
+            <div class="col-md-5 col-sm-12 ">
+              <div class="news-caption bg-light-gray" id="news-content">
+                <h4>Name</h4>
+                <!-- <p id="news-text">  Imagine a robot that runs indefinitely, multifunctional and autonomous.A robot that allows you to spend time with your family and free up your hands to do whatever you wantThen welcome to Gnetic a company that focuses on research and development of automative robotic systems</p> -->
+                <p id="news-text">Something about project Something about project Something about project Something about project Something about project Something about project</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-md-5 col-sm-12">
+              <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+            </div>
+
+            <div class="col-md-7 col-sm-12 ">
+              <div class="news-caption bg-light-gray" id="news-content">
+                <h4>Name</h4>
+                <!-- <p id="news-text">  Imagine a robot that runs indefinitely, multifunctional and autonomous.A robot that allows you to spend time with your family and free up your hands to do whatever you wantThen welcome to Gnetic a company that focuses on research and development of automative robotic systems</p> -->
+                <p id="news-text">Something about project Something about project Something about project Something about project Something about project Something about project</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Left and right controls -->
+<!--           <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right " aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a> -->
+
+          <div class="control-box">                            
+            <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+            <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+          </div><!-- /.control-box --> 
+
+        </div>
+        <!-- End | Carousel -->
+          <!-- <div class="col-md-4 col-sm-12">
               <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
           </div>
+
           <div class="col-md-8 col-sm-12 ">
             <div class="news-caption bg-light-gray" id="news-content">
               <h4>Battery</h4>
               <p id="news-text">  Imagine a robot that runs indefinitely, multifunctional and autonomous.A robot that allows you to spend time with your family and free up your hands to do whatever you wantThen welcome to Gnetic a company that focuses on research and development of automative robotic systems</p>
             </div>
-          </div>
+          </div> -->
+
         </div>
-      </div>
-    </section>
-
-    <div id="first-bk" class="section-image col-md-12 col-sm-12  content-fill parallax" data-parallax="scroll" class data-image-src="img/bk1.jpg" data-image-resolution="1500w">
-      <h4 class="bk-text">Making a difference to our home by bringing dreams of autonomous workers to life.</h4>
-    </div>
-<!-- end of what's new -->
-    <!-- Technology section &&&&&&&&&&&& -->
-    <!-- Technology section &&&&&&&&&&&& -->
-    <!-- Technology section &&&&&&&&&&&& -->
-    <!-- Technology section &&&&&&&&&&&& -->
-    <!-- Portfolio Grid Section -->
-    <!-- Portfolio Grid Section -->
-    <section id="technology-section" class="content-section bg-light-gray text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-title">Technology</h2>
-          </div>
-        </div>
-        <hr class="small">
-        <div class="row" id="profile">
-          <div class="col-md-6 col-sm-6 portfolio-item ">
-            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption bg-light-gray">
-              <h4>Multi-task</h4>
-              <p class="text-muted">say something?</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption bg-light-gray">
-              <h4>App</h4>
-              <p class="text-muted">say something?</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption bg-light-gray">
-              <h4>Camera</h4>
-              <p class="text-muted">say something?</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption bg-light-gray">
-              <h4>Battery</h4>
-              <p class="text-muted">say something?</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div id="first-bk" class="section-image col-md-12 col-sm-12  content-fill parallax" data-parallax="scroll" class data-image-src="img/bk1.jpg" data-image-resolution="1500w">
-      <h4 class="bk-text">Making a difference to our home by bringing dreams of autonomous workers to life.</h4>
-    </div>
 
 
+      </section>
 
-    <!-- about us &&&&&&&&&&&&&&&&&& -->
-    <section id="team-section" class="content-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-title">Meet the Team</h2>
-            <!-- <h3 class="section-subheading text-muted">We Are Penn State</h3> -->
-          </div>
-        </div>
-        <hr class="small">
-        <div id="team-wrapper">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="team-member">
-                <a href="#contactModal1" class="portfolio-link" data-toggle="modal">
-                  <img src="img/team/person.png" class="img-responsive img-circle" alt="">
-                </a>
-                <h4>Gregg Ratanaphanyarat</h4>
-                <ul class="list-inline social-buttons">
-                  <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                  </li>
-                  <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="team-member">
-                <a href="#contactModal2" class="portfolio-link" data-toggle="modal">
-                  <img src="img/team/person.png" class="img-responsive img-circle" alt="">
-                </a>
-                <h4>Dawei Ding</h4>
-                <ul class="list-inline social-buttons">
-                  <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                  </li>
-                  <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="team-member">
-                <a href="#contactModal3" class="portfolio-link" data-toggle="modal">
-                  <img src="img/team/person.png" class="img-responsive img-circle" alt="">
-                </a>
-                <h4>Jesse Chen</h4>
-                <ul class="list-inline social-buttons">
-                  <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                  </li>
-                  <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="team-member">
-                <a href="#contactModal4" class="portfolio-link" data-toggle="modal">
-                  <img src="img/team/person.png" class="img-responsive img-circle" alt="">
-                </a>
-                <h4>Vanajam Soni</h4>
-                <ul class="list-inline social-buttons">
-                  <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                  </li>
-                  <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="team-member">
-                <a href="#contactModal5" class="portfolio-link" data-toggle="modal">
-                  <img src="img/team/person.png" class="img-responsive img-circle" alt="">
-                </a>
-                <h4>Christopher Whitridge</h4>
-                <ul class="list-inline social-buttons">
-                  <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                  </li>
-                  <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 text-center">
-            <p class="large text-muted"></p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end of  team -->
+      <!-- end of News -->
 
 
-    <!-- contact &&&&&&&&&&&&&&&&&& -->
-    <!-- contact &&&&&&&&&&&&&&&&&& -->
-    <!-- contact &&&&&&&&&&&&&&&&&& -->
-    <!-- contact &&&&&&&&&&&&&&&&&& -->
-    <div id="second-bk" class="section-image col-md-12 col-sm-12  content-fill parallax" data-parallax="scroll" class data-image-src="img/bk2.jpg" data-image-resolution="1500w">
+      <!-- contact &&&&&&&&&&&&&&&&&& -->
+      <!-- contact &&&&&&&&&&&&&&&&&& -->
+      <!-- contact &&&&&&&&&&&&&&&&&& -->
+      <!-- contact &&&&&&&&&&&&&&&&&& -->
+   <!--  <div id="second-bk" class="section-image col-md-12 col-sm-12  content-fill parallax" data-parallax="scroll" class data-image-src="img/bk2.jpg" data-image-resolution="1500w">
      <h4 class="bk-text">Presenting the future of robotics at your doorstep. </h4>
-   </div>
+   </div> -->
 
    <footer>
     <section id="contact-section" class="content-section text-center">
 
       <h1 class="section-title">Contact Us</h1>
-      <hr class="small">
+      <!-- <hr class="small"> -->
       <div class="row">
 
 
         <div class="col-lg-8 col-lg-offset-2">
-
-          <ul class="list-inline bigger-social-buttons">
+<!-- 
+          <ul class="list-inline">
             <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
             </li>
             <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
             </li>
             <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
             </li>
-          </ul>
+          </ul> -->
           <ul class="list-inline">
-            <li><i class="fa fa-phone fa-fw fa-lg"></i> phone number?</li>
-            <li><i class="fa fa-envelope-o fa-fw fa-lg"></i>  <a href="mailto:name@example.com">Gregg@gneticinc.com</a>
+            <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+            </li>
+            <li><i class="fa fa-phone fa-fw fa-2x"></i> phone number?</li>
+            <li><i class="fa fa-envelope-o fa-fw fa-2x"></i>  <a href="mailto:      Gregg@gneticinc.com">      Gregg@gneticinc.com</a>
             </li>
           </ul>
         </div>
@@ -376,13 +496,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1 text-center">
-            <i class="fa fa-home fa-5x"></i>
-            <h4><strong>Something Important</strong>
 
-            </h4><i class="icon-home"></i>
-            <p>somewhere somewhere<br>State College, PA 16802</p>
 
-            <hr class="large">
+            <!-- <i class="fa fa-home fa-2x"> -->
+            <p></i> somewhere somewhere, State College, PA 16802</p>
+
+            <!-- <hr class="large"> -->
             <p class="text-muted">Copyright &copy; Bingyao Li 2015</p>
           </div>
         </div>

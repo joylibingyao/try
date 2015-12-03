@@ -8,9 +8,11 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    /*color: #1d9b6c;*/
 }
-
+.navbar a{
+    color: black;
+}
 
 .navbar-custom {
     margin-bottom: 0;
@@ -20,9 +22,9 @@ a:focus {
     /*background-color: #000;*/
 }
 
-.navbar-custom .navbar-brand {
+/*.navbar-custom .navbar-brand {
     font-weight: 700;
-}
+}*/
 
 .navbar-custom .navbar-brand:focus {
     outline: 0;
@@ -72,7 +74,20 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
     color: #fff;
 }
+/*#nav-logo{
+    color:  #294C87;
+}*/
+.navbar a{
+    color:  #3673B6;
+}
+.navbar-header a{
+    color:  #1A3979;
+}
 
+/*.navbar-header .logo-g{
+    color: #1B2C57;
+    font-weight: bold;
+}*/
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -86,12 +101,25 @@ a:focus {
 
     .navbar-custom.top-nav-collapse,.navbar-toggle {
         padding: 0;
-        padding-right: 15px;
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 40px;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #4DBCDA;
+        /*background: #4DBCDA;*/
+        /*color: white;*/
+        color:#3673B6;
+        /*background-color:  #003873;*/
+        background-color: #00448d;
+        /*background-color: white;*/
+        height: 70px;
+
+
+
     }
 }
 
-.top-nav-collapse{
-    font-size: 
+.top-nav-collapse a{
+    color: white;
+    /*color:#3673B6;*/
 }
+

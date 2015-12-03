@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video</title>
+	 <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!-- order is important -->
+  <!-- library -->
+  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="bootstrap/dist/css/video.css" rel="stylesheet">
+  
+  <link href="bootstrap/dist/css/style.css" rel="stylesheet">
+  
+  
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/dist/js/parallax.min.js"></script>
+  <script type="text/javascript" src="bootstrap/dist/js/parallax.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="bootstrap/dist/js/init.js"></script>
+  <script type="text/javascript" src="bootstrap/dist/js/grayscale.js"></script>
+  <script src="bootstrap/dist/js/jquery.easing.min.js"></script>
+  <style type="text/css">
+    #right-nav{
+      height: 100px;
+    }
+  </style>
+
+  <script type="text/javascript">
+$(document).ready(function(){ 
+$("#video1").bind('ended', function(){
+location.href="index.html"; 
+}); 
+});
+</script>
+</head>
+<body>
+
+	<div class="main-video-container" id="firstVideo">
+	
+		<video  id="video1" preload="true" autoplay= "autoplay" volume="0" poster="img/bk1.jpg" >
+			<source src="video.mp4" type="video/mp4">
+				<source src="video.webm" type="video/webm">
+					<source src="video.ogg" type="video/ogg">
+		</video>
+	</div>
+</body>
+</html>

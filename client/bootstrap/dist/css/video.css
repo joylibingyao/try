@@ -1,0 +1,12 @@
+#video1{
+	/*height: 600px;*/
+	position: relative;
+	width: 100%;
+	top: -100px;
+	/*border:1px solid black;*/
+}
+
+#video-container{
+	/*padding-bottom: -100px;*/
+	margin-bottom: -100px;
+}

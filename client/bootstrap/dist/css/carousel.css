@@ -1,0 +1,51 @@
+.carousel-inner  .item  img,
+  .carousel-inner .item  a  img {
+  	height: 400px;
+  	/*margin-left: 30px;*/
+
+      /*margin-left: 80px;*/
+
+  }
+
+.web-info{
+	/*border:1px black solid;*/
+}
+#news-content-wrapper{
+	padding-top: 20px;
+	/*background-color: #C7E19C;*/
+
+}
+
+.carousel-control{
+	width: 70px;
+	height: 100%;
+	background-image: none;
+	box-shadow: none;
+	background-color:none;
+}
+.glyphicon-chevron-right,.glyphicon-chevron-left{
+	color: white;
+}
+.carousel-inner{
+/*height: 400px;*/
+	padding-left: 70px;
+	padding-right: 60px;
+}
+#myCarousel{
+	padding-top: 35px;
+}
+.carousel-indicators .active{
+	background-color: #3673B6;
+}
+.carousel-indicators li{
+	border:1px solid #3673B6;
+}
+.carousel-control {
+    top: 33%;
+}
+.control-box a{
+	/*font-weight: bold;*/
+	font-family: "PT Sans";
+	color: black;
+	font-size: 80px;
+}

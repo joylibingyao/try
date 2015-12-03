@@ -2,16 +2,22 @@ body{
 	width: 100%;
 	/*border:1px black solid;*/
 	overflow-x: hidden;
+	font-family: "PT Sans";
+}
+a:active{
+	color: white;
 }
 .navbar{
 	background:transparent;
-	padding-right: 15px;
-	padding-left: 10px;
+	padding-right: 130px;
+	padding-left: 60px;
+
 	/*height: 100%;*/
 	/*height: 50px;*/
 	/*border:1px black solid;*/
 	/*width: 90%;*/
 }
+
 #navbar{
 	/*padding-top: 15px;*/
 	/*height: 70px;*/
@@ -20,7 +26,14 @@ body{
 #nav-logo{
 	font-size: 30px;
 	margin-bottom: 10px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
 }
+.logo-g{
+	color: #1B2C57;
+	font-weight: bold;
+}
+
 #right-nav{
 	height: 100%;
 }
@@ -31,10 +44,12 @@ ul.navbar-nav li a{
 	font-size: 18px;
 }
 #tm{
-	font-size: 8px;
+	font-size: 10px;
 	vertical-align: text-top;
 	position: relative;
-	top: -10px;
+	top: 0px;
+	margin-left: -8px;
+
 }
 #right-nav{
 	height: 100%;
@@ -72,17 +87,7 @@ hr.large{
 	opacity: 0.85;
 
 }
-#video-container{
-	height: 500px;
-	width: 100%;
-	/*border:1px red solid;*/
-	overflow: hidden;
-}
-video{
-	width: 100%;
-	/*opacity: 0.8;*/
-	/*border:1px red solid;*/
-}
+
 
 .inside-filter{
 	font-size: 54px;
@@ -106,7 +111,8 @@ video{
 	width: 100px;
 	height: 100px;
 	background-color: white;
-	border-radius: 50%;
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px black;
 	border:2px white solid;
 }
 #title{
@@ -118,23 +124,34 @@ video{
 }
 /*---------end of upper stuff----------*/
 /*----------------welcome ---------------*/
+#what-section{
+	/*background-color: #DBDEE0;*/
+	/*margin-top: 60px;*/
+/*	position: relative;
+	top: -300px;
+	background-color: white;
+	z-index: 100;*/
+}
 #subline{
 	font-size: 20px;
 	font-style: italic;
 }
 .section-title{
-	font-size: 47px;
-	font-weight: bold;
-	color: rgb(87,87,87);
+	font-size: 40px;
+	/*font-weight: bold;*/
+	/*color: rgb(87,87,87);*/
+	color:  #3673B6;
 }
-
+p.large{
+	font-size: 20px;
+}
 #profile{
 	margin-top: 28px;
 }
 
 div.parallax{
 	width: 100%;
-	height: 400px;
+	height: 200px;
 	background:transparent;
 
 }
@@ -166,9 +183,31 @@ div.parallax{
 	padding-top: 30px;
 	background:transparent;
 }
+/*#technology-section{
+	background-color: #4080C6;
 
+}*/
+.introText{
+	margin-top: 50px;
+	margin-left: 170px;
+	margin-right: 170px;
+}
+/*-------technology--------*/
+#technology-section{
+
+	padding-left: 120px;
+	padding-right: 120px;
+}
+#technology-section .section-title{
+	/*color: white;*/
+}
 
 /*-----------what's going--------------*/
+#news-section{
+	background-color: #DBDEE0;
+	/*background-color: #fed136;*/
+}
+
 #news-content{
 	padding: 20px;
 }
@@ -178,20 +217,36 @@ div.parallax{
  	text-align: left;
  	text-indent: 20px;
  }
+ .carousel-control.left, .carousel-control.right {
+    background-image: none
+}
 
 
 /******meet the team********/
+#team-title{
+	margin-top: 120px;
+}
+#team-section{
+	padding-top: 150px;
+}
 #team-wrapper{
+
 	padding-top: 30px;
 	padding-left: 90px;
 	padding-right: 90px;
 }
+.team-member h4{
+	font-family: "PT Sans";
+	font-size: 26px;
+	/*font-weight: bold;*/
+}
 #contact-section{
+
 	margin-bottom: 0;
+
 }
-footer{
-	margin-top: 30px;
-}
+
+
 /*ul.banner-social-buttons li a{
 	color: white;
 	font-weight: bold;
@@ -204,3 +259,29 @@ footer{
 #right-nav{
 	height: 100px;
 }
+
+#contact-section{
+	color: white;
+	/*background-color: #3d3d3d;*/
+	background-color: #003873;
+	/*background-color: black;*/
+}
+#contact-section h1{
+	margin-top: -5px;
+	margin-bottom: 50px;
+	color: white;
+}
+#contact-section a{
+	color: white;
+}
+/*----------------general-------------------*/
+.bold{
+
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+
+
+
